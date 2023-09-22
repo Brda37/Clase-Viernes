@@ -1,0 +1,35 @@
+body{
+    background-image: url(../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+table {
+    width: 50%; 
+    border-collapse: collapse;
+    margin: 100px auto; 
+    
+}
+th {
+    background-color: salmon;
+    color: white;
+    border: 1px solid #dddddd; 
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #dddddd; 
+    background-color: black;
+    color: white;
+    text-align: center; 
+    padding: 8px;
+}
+#acciones img{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+    border: 1px solid white;
+}
