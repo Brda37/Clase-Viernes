@@ -5,6 +5,12 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+h1{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+}
 table {
     width: 50%; 
     border-collapse: collapse;
@@ -33,3 +39,18 @@ td {
     margin: 0 20px;
     border: 1px solid white;
 }
+button{
+    padding: 10px 15px;
+    width: 15%;
+    background-color: salmon;
+    color: white;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+  }

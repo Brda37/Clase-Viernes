@@ -5,6 +5,10 @@ body{
   background-attachment: fixed;
   background-position: center;
 }
+/* EDITAR*/
+#volver{
+  width: 10%;
+}
 form {
   width: 300px;
   margin: 0 auto;
@@ -50,5 +54,5 @@ button {
 button:hover{
   background-color: white;
   color: black;
-  transition: 1s;
+  transition: 0.7s;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listado Usuarios</title>
-    <link rel="stylesheet" href="Style/menu.css">
+    <link rel="stylesheet" href="Style/listado.css">
 </head>
   <body>
     <h1>Listado de usuarios registrados</h1>
@@ -31,11 +31,11 @@
         echo "<td>"; echo $fila['documento']; echo "</td>";
         echo "<td>"; echo $fila['fecha']; echo "</td>";
         echo "<td>"; echo $fila['telefono']; echo "</td>";
-        echo "<td id='acciones'><a href='php/eliminar.php?documento=" .$fila['documento']."'><img id='eliminar' src='Images/eliminar.png' title='Eliminar' alt='Eliminar'></a><a href='php/editar.php?documento=" .$fila['documento']."'><img src='Images/editar.png' title='Editar' alt='Editar'></a></td>";
-        //echo "<td><a href='php/editar.php?documento=" .$fila['documento']."'><button>Editar</a></td>";0
+        echo "<td id='acciones'><a href='php/eliminar.php?documento=" .$fila['documento']."'> <img id='eliminar' src='Images/eliminar.png' title='Eliminar' alt='Eliminar'></a> <a href='php/editar.php?documento=" .$fila['documento']."'><img src='Images/editar.png' title='Editar' alt='Editar'></a></td>";
       }
 
       ?>
     </table>
+    <a href="index.php"><button>Registrar nuevo usuario</button></a>
   </body>
 </html>
